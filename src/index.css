@@ -1,13 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Titan+One&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: 'Heebo', sans-serif !important;
+    
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#2575E4;
+  color:  #FFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn{
+  border-radius: 30px;
+  font-weight: bold;
+  border-width: 2px;
+}
+.text-primary{
+  color: #2575E4 !important;
+}
+.text-white{
+  color: white !important;
+}
+.text-description{
+  font-weight: light;
+  font-size: 14px;
+}
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
+.bg-purple{
+  background-color:  #6D029E;
+}
+.dp{
+  width: 100%;
+  border-radius: 50%;
+  border: 5px white;
+  padding: 5px;
+  border-style: dashed;
+  max-height: 180px;
+  max-width: 180px;
+}
+.bb{
+  border-bottom: 5px dashed white;
+  display: inline-block;
+  padding: 5px;
+}
+.project-div{
+  background-color: white;
+  border-radius: 10px;
+
+  color: black;
+}
+.project-img{
+  width: auto;
+  height: auto;
+  max-width: 60%;
+  max-height: 40vh;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 2px solid #f1f1f1;
+}
+.overflow{
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.text-small{
+  font-size: 14px;
+}
+.tabs-name{
+  font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  border-bottom: 2px dashed white;
+  color: white !important;
+}
+.skill-img{
+  padding: 5px;
+  width: 25%;
+  height: auto;
+}
+.text-dark{
+  color: #57606b !important;
+}
+.bb2{
+  border-bottom: 4px dashed #000;
+  padding-bottom: 5px;
+  display: inline-block;
 }
